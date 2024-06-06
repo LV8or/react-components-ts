@@ -1,0 +1,11 @@
+.user-card {padding:1rem;text-align:left;}
+.user-card-top {display:flex;flex-wrap:wrap;margin-bottom:1rem;}
+.user-card .user-card-img {margin-bottom:1rem;}
+.user-card .user-card-img .avatar {height:150px;aspect-ratio: 1/1;border-radius: 50%;}
+.user-card .user-name {margin-left:1rem;}
+.user-card .user-name .user-name-link {font-size:24px;margin-bottom:6px;}
+.user-card .user-name .user-joined {margin-bottom:1rem;}
+
+.user-card .user-card-bottom .repos-title {margin-bottom:8px;}
+.user-card .user-card-bottom .repo-link {margin-bottom:4px;}
+.user-card .user-card-bottom .repo-link a, .user-card .user-card-bottom .repo-link a:hover {color:var(--react-blue);text-decoration:none;}

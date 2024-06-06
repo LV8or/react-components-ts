@@ -1,0 +1,11 @@
+.navbar {position:fixed;top:0;width:100%;overflow:hidden;background-color:#0a0a0a;color:#fff;}
+.navbar .container {display:flex;justify-content:space-between;align-items:center;}
+.navbar .container a, .navbar .container a:hover {text-decoration:none;}
+
+.logo-title {display:flex;align-items:center;}
+.logo-title img {max-width:34px;margin-right:10px;}
+.logo-title .nav-title {font-size:16px;font-weight:bold;color:var(--react-blue);}
+
+.custom-scroll {width:100%;}
+.scroll-progress {width:100%;height:10px;background:var(--react-blue);}
+.progress-bar {height:10px;background: #8b02b5;width:0%;}

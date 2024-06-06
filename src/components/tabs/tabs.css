@@ -1,0 +1,10 @@
+.tab-wrap {transition: 0.3s box-shadow ease;border-radius: 6px;max-width: 100%;display: flex;flex-wrap: wrap;position: relative;list-style: none;margin: 40px 0;}
+
+.tab-wrap .tab-input {width:33.333333%;}
+
+.tab-rad {display: none;}
+.tab-rad + label {cursor: pointer;display: block;text-decoration: none;flex-grow: 3;text-align: center;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;text-align: center;height: 50px;box-sizing: border-box;padding: 15px;}
+
+.tab-content {padding: 20px;text-align:left;background-color: transparent;position: absolute;width: 100%;z-index: -1;opacity: 0;left: 0;transform: translateY(-3px);font-size:1rem;}
+.tab-content h3 {color:var(--react-blue);font-weight:400;}
+.tab-content.selected {opacity: 1;transition: 0.5s opacity ease-in, 0.8s transform ease;position: relative;top: 0;z-index: 100;transform: translateY(0px);text-shadow: 0 0 0;}
